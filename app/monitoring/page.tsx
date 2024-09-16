@@ -198,7 +198,7 @@ export default function MonitoringPage() {
         {/* Button to go back to homepage */}
         <div className="flex justify-center my-4">
       <Link href="/" className="relative inline-block px-4 py-2 text-sm font-bold text-white bg-gradient-to-r from-blue-400 to-green-500 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
-        Kembali ke Homepage
+        Home
       </Link>
         </div>
       </div>
