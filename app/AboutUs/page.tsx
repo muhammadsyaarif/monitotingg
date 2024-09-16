@@ -33,7 +33,7 @@ export default function AboutUs() {
       </div>
 
       {/* Tombol untuk kembali ke homepage */}
-      <Link href="/" className="relative inline-block px-4 py-2 text-sm font-bold text-white bg-gradient-to-r from-blue-400 to-green-500 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+      <Link href="/homepage" className="relative inline-block px-4 py-2 text-sm font-bold text-white bg-gradient-to-r from-blue-400 to-green-500 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
         Kembali ke Homepage
       </Link>
     </div>
