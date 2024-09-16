@@ -16,7 +16,7 @@ export default function AboutUs() {
           className="rounded-lg shadow-lg"
         />
       </div>
-      <h3 className="text-4xl font-bold mb-4">About Us</h3>
+      <h5 className="text-4xl font-bold mb-4">About Us</h5>
 
       {/* Deskripsi */}
       <p className="text-lg max-w-2xl text-center mb-6">
