@@ -6,8 +6,8 @@ import Image from 'next/image'; // Import untuk optimasi gambar
 export default function AboutUs() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-white text-black p-8">
-      {/* Header */}
-        <div className="my-6">
+      {/* Gambar Header */}
+      <div className="my-6">
         <Image
           src="/iot.jpg"
           alt="IoT Monitoring Illustration"
@@ -16,6 +16,8 @@ export default function AboutUs() {
           className="rounded-lg shadow-lg"
         />
       </div>
+
+      {/* Header */}
       <h5 className="text-4xl font-bold mb-4">About Us</h5>
 
       {/* Deskripsi */}
@@ -30,19 +32,23 @@ export default function AboutUs() {
         Alat dan bahan yang dibutuhkan dalam pembuatan adalah ESP32 atau mikrokontroler lainnya, Sensor DHT11, Sensor Ultrasonik, dan Sensor MQ-2.
       </p>
 
-      {/* Gambar Ilustrasi */}
-    
-
       {/* Tombol untuk kembali ke homepage */}
-      <Link href="/homepage" className="relative inline-block px-4 py-2 text-sm font-bold text-white bg-gradient-to-r from-blue-400 to-green-500 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
-        Kembali ke Homepage
-      </Link>
-          <Link
-              href="/monitoring"
-              className="relative inline-block px-4 sm:px-4 py-2 sm:py-2 text-lg sm:text-xl font-bold text-white bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full shadow-lg hover:scale-105 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-400 transition duration-300 ease-in-out"
-            >
-              Monitoring
-            </Link>
+      <div className="flex flex-col space-y-4"> {/* Container untuk tombol dengan jarak */}
+        <Link
+          href="/homepage"
+          className="relative inline-block px-4 py-2 text-sm font-bold text-white bg-gradient-to-r from-blue-400 to-green-500 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
+        >
+          Kembali ke Homepage
+        </Link>
+
+        {/* Tombol Monitoring dengan ukuran lebih kecil */}
+        <Link
+          href="/monitoring"
+          className="relative inline-block px-3 py-2 text-sm font-bold text-white bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full shadow-lg hover:scale-105 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-400 transition duration-300 ease-in-out"
+        >
+          Monitoring
+        </Link>
+      </div>
     </div>
   );
 }
