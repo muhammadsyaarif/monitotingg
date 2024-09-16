@@ -36,17 +36,17 @@ export default function AboutUs() {
       <div className="flex flex-col space-y-4"> {/* Container untuk tombol dengan jarak */}
         <Link
           href="/homepage"
-          className="relative inline-block px-4 py-2 text-sm font-bold text-white bg-gradient-to-r from-blue-400 to-green-500 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
+          className="relative inline-block px-4 py-2 text-sm font-bold text-white bg-gradient-to-r from-blue-400 to-green-500 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out text-center"
         >
           Kembali ke Homepage
         </Link>
 
-        {/* Tombol Monitoring dengan ukuran lebih kecil */}
+        {/* Tombol Monitoring dengan ukuran lebih kecil dan teks di tengah */}
         <Link
           href="/monitoring"
-          className="relative inline-block px-3 py-2 text-sm font-bold text-white bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full shadow-lg hover:scale-105 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-400 transition duration-300 ease-in-out"
+          className="relative inline-block px-3 py-2 text-sm font-bold text-white bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full shadow-lg hover:scale-105 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-400 transition duration-300 ease-in-out text-center"
         >
-          Monitoring Alat
+          Monitoring
         </Link>
       </div>
     </div>
