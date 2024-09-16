@@ -37,6 +37,12 @@ export default function AboutUs() {
       <Link href="/homepage" className="relative inline-block px-4 py-2 text-sm font-bold text-white bg-gradient-to-r from-blue-400 to-green-500 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
         Kembali ke Homepage
       </Link>
+          <Link
+              href="/AboutUs"
+              className="relative inline-block px-4 sm:px-4 py-2 sm:py-2 text-lg sm:text-xl font-bold text-white bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full shadow-lg hover:scale-105 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-400 transition duration-300 ease-in-out"
+            >
+              About Us
+            </Link>
     </div>
   );
 }
