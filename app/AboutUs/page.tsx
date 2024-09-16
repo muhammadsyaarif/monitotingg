@@ -7,7 +7,16 @@ export default function AboutUs() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-white text-black p-8">
       {/* Header */}
-      <h1 className="text-4xl font-bold mb-4">About Us</h1>
+        <div className="my-6">
+        <Image
+          src="/iot.jpg"
+          alt="IoT Monitoring Illustration"
+          width={600}
+          height={400}
+          className="rounded-lg shadow-lg"
+        />
+      </div>
+      <h3 className="text-4xl font-bold mb-4">About Us</h3>
 
       {/* Deskripsi */}
       <p className="text-lg max-w-2xl text-center mb-6">
@@ -22,15 +31,7 @@ export default function AboutUs() {
       </p>
 
       {/* Gambar Ilustrasi */}
-      <div className="my-6">
-        <Image
-          src="/iot.jpg"
-          alt="IoT Monitoring Illustration"
-          width={600}
-          height={400}
-          className="rounded-lg shadow-lg"
-        />
-      </div>
+    
 
       {/* Tombol untuk kembali ke homepage */}
       <Link href="/homepage" className="relative inline-block px-4 py-2 text-sm font-bold text-white bg-gradient-to-r from-blue-400 to-green-500 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
