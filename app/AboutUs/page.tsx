@@ -46,7 +46,7 @@ export default function AboutUs() {
           href="/monitoring"
           className="relative inline-block px-3 py-2 text-sm font-bold text-white bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full shadow-lg hover:scale-105 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-400 transition duration-300 ease-in-out"
         >
-          Monitoring
+          Monitoring Alat
         </Link>
       </div>
     </div>
