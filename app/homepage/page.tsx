@@ -76,7 +76,7 @@ export default function Homepage() {
             )}
             {gas !== null ? (
               <p className="text-2xl font-semibold bg-blue-600 p-4 rounded-lg shadow-lg text-white">
-                Gas: {gas}
+                Gas: {gas} Ppm
               </p>
             ) : (
               <p className="text-lg">Mengambil data gas...</p>
